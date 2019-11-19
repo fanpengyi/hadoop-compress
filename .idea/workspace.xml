@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45310c2-863b-4dbb-af2e-2bb9a951449d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -23,6 +24,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/InputFormat/MyInputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/InputFormat/MyRecordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/InputFormat/MySmallFile2SequenceFile.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/PackageInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/combine/MyCombinerMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/partitioner/MyPartitioner.java" afterDir="false" />
@@ -30,6 +34,8 @@
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,6 +64,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="89" />
           <entry key="properties" value="5" />
           <entry key="xml" value="3" />
@@ -67,6 +74,7 @@
         <counts>
           <entry key="CLASS" value="13" />
           <entry key="JAVA" value="89" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="3" />
         </counts>
@@ -94,18 +102,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/people/compress/MapCompress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/people/compress/FileMapCompress.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,11 +159,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/people/decomprss/FileHdfsDeCompress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -215,7 +220,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -301,8 +306,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="27" />
-    <option name="y" value="18" />
+    <option name="x" value="665" />
+    <option name="y" value="47" />
     <option name="width" value="1784" />
     <option name="height" value="997" />
   </component>
@@ -343,16 +348,6 @@
             </path>
             <path>
               <item name="Hadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -377,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574151594194" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574152033422" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../kkb/All-Hadoop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,6 +387,7 @@
       <recent name="mytest.decomprss" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fpy\workspace\study\Hadoop" />
       <recent name="D:\fpy\workspace\study\Hadoop\doc" />
       <recent name="D:\fpy\workspace\study\Hadoop\src\main\resources" />
       <recent name="D:\fpy\workspace\study\Hadoop\src\main\java\mytest\outputformat" />
@@ -528,17 +524,17 @@
       <workItem from="1572591923454" duration="1668000" />
       <workItem from="1572834885988" duration="66031000" />
       <workItem from="1573626074501" duration="9616000" />
-      <workItem from="1573692654109" duration="38377000" />
+      <workItem from="1573692654109" duration="38629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122090000" />
+    <option name="totallyTimeSpent" value="122342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.16257995" />
       <window_info id="Designer" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.502455" side_tool="true" weight="0.16257995" />
       <window_info id="Structure" order="3" sideWeight="0.50142044" weight="0.25302014" />
@@ -547,7 +543,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16178067" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22584148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22584148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25429976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -657,13 +653,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/grouping/CustomGroupingMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2.jar!/org/apache/hadoop/io/IOUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1046,6 +1035,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
