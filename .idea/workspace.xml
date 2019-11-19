@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45310c2-863b-4dbb-af2e-2bb9a951449d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/people/MyMutipleTextOutputFormat.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/people/PackageInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/people/compress/FileHdfsCompress.java" afterDir="false" />
@@ -34,8 +30,47 @@
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kkb/All-Hadoop/src/main/java/my/study/test/wordcount/MyWordCountReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/MyMutipleTextOutputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/PackageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/FileHdfsCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/FileMapCompress$MyOutPutFormat$MyRecordWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/FileMapCompress$MyOutPutFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/FileMapCompress$SearchCountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/FileMapCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/HdfsCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/MapCompress$MyOutPutFormat$MyRecordWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/MapCompress$MyOutPutFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/MapCompress$SearchCountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/compress/MapCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/FileHdfsDeCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/HdfsDeCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/MapMRDeCompress$MyOutPutFormat$MyRecordWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/MapMRDeCompress$MyOutPutFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/MapMRDeCompress$SearchCountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/MapMRDeCompress$SearchCountReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/decomprss/MapMRDeCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/CopyFileFromLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/DownLoadFormHDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/GetHDFSPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/HdfsCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/HdfsDeCompress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/hdfs/UploadToHDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/outputformat/MyOutPutFormat$MyRecordWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/outputformat/MyOutPutFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/people/util/getFileList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop-compress-1.0-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop-compress-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-hadoop-compress-1.0.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,6 +117,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
+          <entry key="gitignore" value="14" />
           <entry key="java" value="8416" />
           <entry key="properties" value="263" />
           <entry key="xml" value="21" />
@@ -90,7 +126,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="8416" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="Properties" value="263" />
           <entry key="XML" value="21" />
         </counts>
@@ -163,18 +199,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/people/decomprss/FileHdfsDeCompress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -266,6 +298,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/people/hdfs/HdfsDeCompress.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/people/util/getFileList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/people/decomprss/FileHdfsDeCompress.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -305,7 +338,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="665" />
     <option name="y" value="47" />
     <option name="width" value="1784" />
@@ -372,7 +405,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574152033422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574152395039" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../kkb/All-Hadoop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -524,15 +557,16 @@
       <workItem from="1572591923454" duration="1668000" />
       <workItem from="1572834885988" duration="66031000" />
       <workItem from="1573626074501" duration="9616000" />
-      <workItem from="1573692654109" duration="38629000" />
+      <workItem from="1573692654109" duration="38992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122342000" />
+    <option name="totallyTimeSpent" value="122705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.16257995" />
       <window_info id="Designer" order="1" />
@@ -1034,16 +1068,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/people/decomprss/FileHdfsDeCompress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
