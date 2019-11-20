@@ -29,10 +29,8 @@ public class getFileList {
             System.out.println("please check input Path!");
             System.exit(0);
         }
-
         List strings = new ArrayList<>();
         listAllFiles(args[0],strings);
-
         System.out.println("success!");
 
     }
